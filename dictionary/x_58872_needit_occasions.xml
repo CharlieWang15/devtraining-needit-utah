@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="ab50b47f8373221022929f60deaad372" label="Occasions" max_length="40" name="x_58872_needit_occasions" type="collection">
+        <element label="Employee email" mandatory="true" max_length="40" name="employee_email" type="string"/>
+        <element label="employee" mandatory="true" max_length="40" name="employee" type="string"/>
+        <element label="Occasion date" mandatory="true" max_length="40" name="occasion_date" type="glide_date_time"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Special occasion" mandatory="true" max_length="40" name="special_occasion" type="string"/>
+        <element label="Active" max_length="40" name="active" type="boolean"/>
+    </element>
+</database>
